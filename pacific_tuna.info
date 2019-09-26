@@ -1,0 +1,31 @@
+name = Pacific Tuna Bootstrap Sub-Theme (CDN)
+description = Custom responsive theme base on Bootsrap 3 for Pacific Tuna project.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[language]       = 'Language link'
+regions[navigation]     = 'Navigation'
+regions[top_main]       = 'Top Image'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[mid_content]    = 'Middle Content'
+regions[btm_content]    = 'Bottom Content'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
